@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:layout_marginStart="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lightbulb"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lightbulb"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lightbulb"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lightbulb"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fan"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fan"
+            />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fan"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light 1"
+            android:layout_marginStart="20dp"
+            android:textColor="#a6b2ba"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light 2"
+            android:layout_marginStart="8dp"
+            android:textColor="#a6b2ba"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light 3"
+            android:layout_marginStart="8dp"
+            android:textColor="#a6b2ba"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light 4"
+            android:layout_marginStart="8dp"
+            android:textColor="#a6b2ba"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fan 1"
+            android:layout_marginStart="10dp"
+            android:textColor="#a6b2ba"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fan 2"
+            android:layout_marginStart="16dp"
+            android:textColor="#a6b2ba"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fan 3"
+            android:layout_marginStart="16dp"
+            android:textColor="#a6b2ba"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/angry_btn"
+            android:background="@drawable/buttonshape"
+            android:text="Configure Lighting"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#fff"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/refreshing"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh"
+            android:textColor="#a6b2ba"
+            android:layout_marginStart="290dp"/>
+    </LinearLayout>
+
+</LinearLayout>
