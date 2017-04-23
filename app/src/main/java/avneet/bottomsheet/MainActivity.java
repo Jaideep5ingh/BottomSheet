@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         View parentView = getLayoutInflater().inflate(R.layout.dialog,null);
         BottomSheetDialog.setContentView(parentView);
         BottomSheetBehavior bottomSheetBehavior=BottomSheetBehavior.from((View)parentView.getParent());
-        BottomSheetBehavior.setPeek
+        BottomSheetBehavior.setPeeknxaskbj
 
     }
 }
