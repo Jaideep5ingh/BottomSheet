@@ -5,11 +5,13 @@ import android.support.design.widget.BottomSheetDialog;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
    FloatingActionButton fab3,fab4;
+    BottomSheetDialog bottomSheetDialog;
 
 
     @Override
@@ -19,9 +21,10 @@ public class MainActivity extends AppCompatActivity {
         fab3=(FloatingActionButton) findViewById(R.id.floatingActionButton2);
         fab4=(FloatingActionButton)findViewById(R.id.floatingActionButton4);
         View parentView = getLayoutInflater().inflate(R.layout.dialog,null);
-        BottomSheetDialog.setContentView(parentView);
+        bottomSheetDialog.setContentView(parentView);
         BottomSheetBehavior bottomSheetBehavior=BottomSheetBehavior.from((View)parentView.getParent());
-        BottomSheetBehavior.setPeeknxaskbj
+        bottomSheetBehavior.setPeekHeight((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,100,getResources().getDisplayMetrics()));
+        bottomSheetDialog.show();
 
     }
 }
